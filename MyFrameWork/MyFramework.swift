@@ -14,6 +14,6 @@ public class MyFramework: NSObject {
   
   }
   public static func openImage()->UIImage?{
-    return UIImage(named: "IMG_1853.jpg", inBundle: bundle, compatibleWithTraitCollection: nil)
+    return UIImage(named: "MyFramework", inBundle: bundle, compatibleWithTraitCollection: nil)
   }
 }

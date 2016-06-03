@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		563BA0CD1D01CE6D00176773 /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BA0CC1D01CE6D00176773 /* MyFramework.swift */; };
 		563BA0F51D01D41400176773 /* IMG_1853.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 563BA0F41D01D41400176773 /* IMG_1853.jpg */; };
+		563BA1261D01F4E100176773 /* MyFramework.png in Resources */ = {isa = PBXBuildFile; fileRef = 563BA1251D01F4E100176773 /* MyFramework.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		563BA0C61D01CE5900176773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563BA0CC1D01CE6D00176773 /* MyFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
 		563BA0F41D01D41400176773 /* IMG_1853.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1853.jpg; sourceTree = "<group>"; };
+		563BA1251D01F4E100176773 /* MyFramework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyFramework.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				563BA0C61D01CE5900176773 /* Info.plist */,
+				563BA1251D01F4E100176773 /* MyFramework.png */,
 				563BA0F41D01D41400176773 /* IMG_1853.jpg */,
 				563BA0CC1D01CE6D00176773 /* MyFramework.swift */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563BA1261D01F4E100176773 /* MyFramework.png in Resources */,
 				563BA0F51D01D41400176773 /* IMG_1853.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				563BA0CB1D01CE5900176773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
