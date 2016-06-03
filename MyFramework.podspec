@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MyFramework"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MyFramework."
+  s.summary      = "MyFramework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://github.com/kissnger/MyFramework"
+  s.homepage     = "https://github.com/kissnger/MyFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/kissnger/MyFramework.git" }
+  s.source       = { :git => 'https://github.com/kissnger/MyFramework/MyFramework.git' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyFramework", "MyFramework/**/*.swift"
+  s.source_files  = "MyFramework/**/*.swift"
   #s.exclude_files = "MyFramework/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
